@@ -1,22 +1,16 @@
-import Card from "./components/Card"
 import "./App.css"
+import ColorTest from "./components/ColorTest"
 
-import myPoster from "./assets/Frontend_Mentor/Blog_Card/illustration-article.svg"
-import myAvatar from  "./assets/Frontend_Mentor/Blog_Card/image-avatar.webp"
+// 配置路由结构
+import { Routes, Route} from  'react-router-dom'
 
 function App() {
-    const Card_Data = {
-      poster_url: myPoster,
-      tag: "Learning",
-      date: "Published 21 Dec 2023",
-      title: "HTML & CSS foundations",
-      description: "These languages are the backbone of every website, defining structure, content, and presentation.",
-      avatar_url: myAvatar,
-      aurthor: "Greg Hooper",
-    }
-    return ( 
-    <div>
-        <Card {...Card_Data}/>
+  return (
+    <div className="APPdiv">
+      <Routes>
+          <Route path="/" element={<ColorTest />} />
+          <Route path="/page2" element={<ColorTest />} />
+      </Routes>
     </div>
   )
 }

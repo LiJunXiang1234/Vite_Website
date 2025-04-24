@@ -1,0 +1,35 @@
+.orangeComponents_connect_state{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    gap: 24px;
+
+    background-color: #F5F5F7;
+    padding: 7px 8px;
+    border-radius: 2px;
+
+    width: fit-content;
+}
+
+.orangeComponents_connect_state_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.greenCircle{
+    width: 5px;
+    height: 5px;
+    clip-path: circle();
+
+    background-color: #5EC425;
+}
+
+.orangeComponents_connect_state_text{
+    font-size: 12px;
+}

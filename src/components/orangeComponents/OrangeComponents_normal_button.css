@@ -1,0 +1,17 @@
+.orangeComponents_normal_button{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #1890FF;
+
+    padding: 4px 16px;
+    border-radius: 2px;
+    border: none;
+}
+
+.orangeComponents_normal_button:hover{
+    background-color: #43a2fb;
+}
+
+.orangeComponents_normal_button:active{
+    background-color: aqua;
+}

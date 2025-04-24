@@ -1,0 +1,65 @@
+.topLayout{
+    width: 100%;
+}
+
+.orangeClassification_Sider{
+    padding: 17px 0px;
+    background-color: #333333;
+}
+
+.orangeClassification_Menu{
+    background-color: #00000000;
+    width: 192px;
+}
+
+.ant-menu-title-content{
+    color: rgb(255, 255, 255);
+    
+}
+
+.ant-layout-sider-children{
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+}
+
+.demo-logo-vertical{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.revaloris_Logo{
+    width: 154px;
+    height: 38px;
+}
+
+.ant-menu-item{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    background-color:#00000000 !important;
+    width: 192px !important;
+    height: 50px !important;
+    border-radius: 2px !important;
+    
+}
+.ant-menu-item-selected{
+    background-color: #FFA600 !important;
+}
+.ant-menu-item-selected:hover{
+    background-color: #fbb635 !important;
+}
+.ant-menu-item-active{
+    background-color: #ffffff0e !important;
+}
+
+.orangeClassification_Header{
+    display: flex;
+    background-color: white;
+    padding: 0px;
+}
+.contentDiv{
+    padding: 16px;
+}

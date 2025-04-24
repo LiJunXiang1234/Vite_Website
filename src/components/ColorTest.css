@@ -1,0 +1,65 @@
+.mybtn{
+    background:#F89191;
+}
+.color-test-card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    padding: 24px;
+    background-color: aliceblue;
+    border-radius: 24px;  
+}
+
+.color-test-header{
+    width: 600px;
+    height: 40px;
+    background-color: blue;
+}
+
+.video-stream{
+    width: 600px;
+    height: auto;
+    /* height: 337.5px; */
+}
+
+.color-test-title-context{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.color-test-title{
+    font-family: "Figtree";
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.connection-status{
+    display: flex;
+    flex-direction: row;
+
+    gap: 24px;
+}
+
+.description-text{
+    width: 600px;
+}
+
+p{
+    margin: 0px;
+}
+
+.connect-status-text,
+.recognition-status-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 108px;
+    height: 32px;
+    background-color: #F89191;
+    border-radius: 16px;
+}

@@ -45,7 +45,7 @@
 /* Figtree */
 @font-face {
     font-family: "Figtree";
-    src: url("assets/fonts/Figtree/Figtree-ExtraBold.ttf") format("truetype");
+    src: url("/assets/fonts/Figtree/Figtree-ExtraBold.ttf") format("truetype");
     font-weight: 800;
 }
 @font-face {
@@ -148,3 +148,9 @@
     font-weight: 900;
 }
 
+/* DoHyeon */
+@font-face {
+    font-family: "DoHyeon";
+    src: url("/assets/fonts/DoHyeon-Regular.ttf") format("truetype");
+    font-weight: 400;
+}

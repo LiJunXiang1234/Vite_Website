@@ -1,0 +1,30 @@
+.orangeComponents_opreate_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+
+    width: 192px;
+    height: 50px;
+
+    background-color: #00000000;
+
+    border: none;
+    border-radius: 2px;
+}
+
+.orangeComponents_opreate_button.is-active{
+    background-color: #FFA600;
+}
+
+.orangeComponents_icon_img{
+    width: 18px;
+    height: 18px;
+}
+
+.orangeComponents_text_p{
+    font-size: 16px;
+    font-weight: 700;
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,18 @@
+.orangeComponents_up_bar{
+    display: flex;
+    gap: 24px;
+    justify-content: flex-end;
+
+    width: 100%;
+    padding: 8px 16px;
+    box-sizing: border-box;
+
+    background-color: #FFFFFF;
+}
+
+.orangeComponents_up_bar_button{
+    border: none;
+    background-color: #00000000;
+
+    font-size: 16px;
+}

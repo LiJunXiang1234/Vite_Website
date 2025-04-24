@@ -1,0 +1,39 @@
+.orangeComponents_equipment_settings{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #FFFFFF;
+
+    gap: 21px;
+    padding: 21px 16px;
+    width: fit-content;
+}
+
+.orangeComponents_equipment_settings_text{
+    font-size: 20px;
+}
+
+.orangeComponents_equipment_settings_group{
+    display: flex;
+    flex-direction: row;
+
+    gap: 16px;
+}
+
+.OrangeComponents_equipment_settings_Bell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 12px;
+    padding: 18px 22px;
+
+    background-color: #F5F5F7;
+    border-radius: 2px;
+}
+
+.OrangeComponents_equipment_settings_Bell_text{
+    font-size: 16px;
+    font-weight: 500;
+}

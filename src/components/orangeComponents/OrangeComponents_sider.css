@@ -1,0 +1,6 @@
+.orangeComponents_sider{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}

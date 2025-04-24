@@ -1,0 +1,16 @@
+.orangeComponents_sider_with_ICON{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #333333;
+    padding: 17px 8px;
+    gap: 76px;
+
+    height: 100%;
+}
+
+.orangeComponents_Logo{
+    width: 154px;
+    height: 38px;
+}
